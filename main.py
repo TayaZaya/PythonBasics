@@ -153,4 +153,6 @@ for line in picture:
 #how to access each number in the matrix (iterate over matrix)
 #code that cinditions so o = ' ' and 1 = '*'
 # how to properly print in the shape wanted
+
+ghgh
 """
