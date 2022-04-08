@@ -77,6 +77,8 @@ else:S
     print('you need magic powers')
 """
 """
+
+
 my_list = [1,2,3,4,5]
 counter = 0
 for item in my_list:
@@ -91,25 +93,11 @@ for i, char in enumerate(list(range(100))):
  i = 0
 while i < 50:
     print(i)
-    i += 1  
-    
-    picture = [
-  [0,0,0,1,0,0,0],
-  [0,0,1,1,1,0,0],
-  [0,1,1,1,1,1,0],
-  [1,1,1,1,1,1,1],
-  [0,0,0,1,0,0,0],
-  [0,0,0,1,0,0,0]
-]
-for image in picture:
-  for pixel in image:
-    if (pixel):
-      print('*', end ="")
-    else:
-      print(' ', end ="")
-  print('')     
-"""
-"""
+    i += 1
+    """
+""" 
+
+
 some_list = ['a', 'b','c','b','d','m','n','n']
 duplicates =[]
 for value in some_list:
@@ -118,14 +106,14 @@ for value in some_list:
             duplicates.append(value)
 print(duplicates)
 
-"""
-"""
+
+
 my_list = [1,2,3,4,5,6,7,8,9,10]
 list_sum = 0
 for item in my_list:
     list_sum = list_sum + item
 print(f"my list sum is {list_sum}")
-"""
+""""""
 """
 picture = [
   [0,0,0,1,0,0,0],
@@ -137,14 +125,15 @@ picture = [
 ]
 
 # Option 1
-for line in picture:
-    for cell in line:
-        if cell == 1:
-            print('*',end='')
-        elif cell == 0:
-            print(' ',end='')
-        else:
-            print("fuck u")
+def show_tree():
+    for line in picture:
+        for cell in line:
+            if cell == 1:
+        print('*',end='')
+            elif cell == 0:
+        print(' ',end='')
+            else:
+        print("fuck u")
     print()
 """
 """
